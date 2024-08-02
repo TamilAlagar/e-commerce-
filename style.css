@@ -1,0 +1,578 @@
+/* Reset default margin and padding for the entire page */
+body, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header section */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  padding: 20px 80px;
+  z-index: 900;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+/* Style the logo image */
+.logo {
+  max-height:  100px; /* Adjust the height as needed */
+}
+
+/* Style the navigation menu */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar  a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold; /* Make the text bold */
+  transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+#navbar a:hover {
+  color: #ff6600; /* Change the text color on hover */
+}
+#navbar li a.active{
+  color: #088178;
+} 
+
+
+/* Add these styles to your style.css file */
+#hero {
+  background-image:url("hero.png"); /* Replace with your background image URL */
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding:  0 80px; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  /* Optional: Add a semi-transparent overlay to the background image */
+  
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+  
+}
+
+
+
+#hero h1 {
+  color: #088178;
+
+}
+
+
+
+#hero button {
+  
+  color: green;
+  
+  
+  cursor: pointer;
+  
+}
+
+/* #hero button:hover {
+  background-color: blueviolet;  Change the background color on hover */
+
+
+.section-p1{
+  padding: 10px 20px;
+}
+
+#feature{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 300px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#feature .fe-box:hover{
+  box-shadow: 10px 20px 54px rgba(70, 62, 221, 0.1);
+}
+
+
+#feature .fe-box h6 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fddde4;
+}
+
+
+
+#product1{
+  text-align: center;
+
+}
+
+
+.pro-container{
+  display: flex;     
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px; 
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+.pro.hover{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.pro.des{
+  text-align: start;
+  padding: 10px 0;
+}
+
+.pro.des span{
+  color: #060606;
+  font-size: 12px ;
+}
+
+.pro.des h5{
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+.pro.des h4{
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;  
+}
+
+.star {
+    color: gold; /* Change the color of the stars */
+    font-size: 20px; /* Adjust the size of the stars */
+}
+
+
+.section-m1{
+  margin: 40px 0;
+}
+#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("b2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner h4{
+
+  color: fff;
+  font-size: 30px;
+}
+
+#banner h2{
+
+  color: fff;
+  font-size: 30px;
+  padding: 10px 0;
+
+}
+
+#banner h2 span{
+
+  color: red;
+  font-size: 30px;
+}
+
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+#banner button:hover{
+  background: lightslategrey;
+  color: fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset default margin and padding for the entire page */
+body, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header section */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  padding: 20px 80px;
+  z-index: 900;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+/* Style the logo image */
+.logo {
+  max-height:  100px; /* Adjust the height as needed */
+}
+
+/* Style the navigation menu */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar  a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold; /* Make the text bold */
+  transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+#navbar a:hover {
+  color: #ff6600; /* Change the text color on hover */
+}
+#navbar li a.active{
+  color: #088178;
+} 
+
+
+/* Add these styles to your style.css file */
+#hero {
+  background-image:url("hero.png"); /* Replace with your background image URL */
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding:  0 80px; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  /* Optional: Add a semi-transparent overlay to the background image */
+  
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+  
+}
+
+
+
+#hero h1 {
+  color: #088178;
+
+}
+
+
+
+#hero button {
+  
+  color: green;
+  
+  
+  cursor: pointer;
+  
+}
+
+/* #hero button:hover {
+  background-color: blueviolet;  Change the background color on hover */
+
+
+.section-p1{
+  padding: 10px 20px;
+}
+
+#feature{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 300px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#feature .fe-box:hover{
+  box-shadow: 10px 20px 54px rgba(70, 62, 221, 0.1);
+}
+
+
+#feature .fe-box h6 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fddde4;
+}
+
+
+
+#product1{
+  text-align: center;
+
+}
+
+
+.pro-container{
+  display: flex;     
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px; 
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+.pro.hover{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.pro.des{
+  text-align: start;
+  padding: 10px 0;
+}
+
+.pro.des span{
+  color: #060606;
+  font-size: 12px ;
+}
+
+.pro.des h5{
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+.pro.des h4{
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;  
+}
+
+.star {
+    color: gold; /* Change the color of the stars */
+    font-size: 20px; /* Adjust the size of the stars */
+}
+
+
+.section-m1{
+  margin: 40px 0;
+}
+#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("b2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner h4{
+
+  color: fff;
+  font-size: 30px;
+}
+
+#banner h2{
+
+  color: fff;
+  font-size: 30px;
+  padding: 10px 0;
+
+}
+
+#banner h2 span{
+
+  color: red;
+  font-size: 30px;
+}
+
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+#banner button:hover{
+  background: lightslategrey;
+  color: fff;
+}
+
+#footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-col h4 {
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-links a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: blue;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
